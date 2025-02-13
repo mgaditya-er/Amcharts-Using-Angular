@@ -1,0 +1,22 @@
+
+<div id="chartdiv1" style="width: 100%; height: 500px;"></div>
+<hr>
+<div style="width: fit-content; margin: auto; display: flex;  gap: 1rem;">
+    
+<label for="colorLoss23">>23% Stock Loss Color:</label>
+<input type="color" id="colorLoss23" (input)="onColorChange($event, 'loss23')" value="#a90a59">
+
+<label for="colorLoss15to23">-15% to -23% Color:</label>
+<input type="color" id="colorLoss15to23" (input)="onColorChange($event, 'loss15to23')" value="#e1a9c5">
+
+<label for="colorLoss15toFlat">-15% to Flat Color:</label>
+<input type="color" id="colorLoss15toFlat" (input)="onColorChange($event, 'loss15toFlat')" value="#c6c3c1">
+
+<label for="colorFlatTo14">Flat to +14% Color:</label>
+<input type="color" id="colorFlatTo14" (input)="onColorChange($event, 'flatTo14')" value="#b5d3be">
+
+<label for="colorGain14">14% Stock Gain Color:</label>
+<input type="color" id="colorGain14" (input)="onColorChange($event, 'gain14')" value="#a6e2bc">
+
+</div>
+<hr>
